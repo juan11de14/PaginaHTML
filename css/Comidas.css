@@ -27,3 +27,45 @@ body {
 #tablaComidas{
     background-color: #6a992d;
 }
+
+.Slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Slider ul {
+ display: flex;
+ padding: 0;
+ width: 500%;
+ animation: cambio 25s infinite;
+ -o-animation-direction: alternate;
+}
+
+.Slider li {
+    width: 100%;
+    list-style: none; 
+}
+
+.Slider img {   
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0%; }
+    15% { margin-left: 0%; }
+
+    20% { margin-left: -100%; }
+    35% { margin-left: -100%; }
+
+    40% { margin-left: -200%; }
+    55% { margin-left: -200%; }
+
+    60% { margin-left: -300%; }
+    75% { margin-left: -300%; }
+
+    80% { margin-left: -400%; }
+    100% { margin-left: -400%; }
+    
+}
