@@ -1,0 +1,29 @@
+body {
+    width: 600px;
+     background-color: #dfdfdf;
+    padding: 0 10px 100px 10px;
+ 
+  }
+
+
+  #Titulo{
+      font: large bold Algeriam;
+    color: rgb(60, 97, 158);
+}
+
+#Logo{
+    width: 50px; height: 50px;
+}
+#Banner{
+    background-color: #9ea596;
+    text-align: center;
+    
+}
+#botones{
+    background-color: #815c50;
+    text-align: right;
+
+}
+#tablaComidas{
+    background-color: #6a992d;
+}
